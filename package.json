@@ -1,7 +1,7 @@
 {
   "name": "sv-aloha",
   "version": "0.0.5",
-  "desctiption": "SV web framework",
+  "desctiption": "Web framework",
   "private": false,
   "dependencies": {
     "ws": "^0.7.1"
