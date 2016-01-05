@@ -1,9 +1,15 @@
 {
-  "name": "sv-aloha",
-  "version": "0.0.6",
-  "desctiption": "Web framework",
-  "private": false,
-  "dependencies": {
-
-  }
+    "name": "sv-aloha",
+    "description": "Lightweight client-side modular web framework",
+    "version": "0.0.8",
+    "license": "MIT",
+    "repository": "jukta/sv-aloha",
+    "keywords": [
+        "client-side",
+        "web",
+        "html",
+        "framework",
+        "browser",
+        "mvc"
+    ]
 }
