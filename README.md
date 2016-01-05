@@ -12,9 +12,6 @@ Installation
     <script src="/javascripts/jquery.min.js"></script>
     <script src="/javascripts/sv.js"></script>
     
-Syntax
-------------
-
 ## Define simple controller
 
 Add ``sv-controller`` attribute to any html tag on your html page
