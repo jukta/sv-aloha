@@ -30,11 +30,12 @@ var sv_core = new function() {
     };
 
     this.html = function(el, html) {
-        this.destroyControllers(el);
+        var _el = $(el);
+        this.destroyControllers(_el);
         try {
-            el.html(html);
+            _el.html(html);
         } catch(e){};
-        this.initControllers(el);
+        this.initControllers(_el);
     };
 
     var onClick = function(e) {

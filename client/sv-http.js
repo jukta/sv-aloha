@@ -8,7 +8,7 @@ var sv_http = new function() {
             url: '/__event/'+type,
             dataType: 'json',
             async: true,
-            data: JSON.stringify(data)
+            data: data
         }).done(handleResponse);
     };
 
